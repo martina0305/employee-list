@@ -1,3 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+html {
+	height: 2000px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/64/Creaci%C3%B3n_de_Ad%C3%A1n_%28Miguel_%C3%81ngel%29.jpg);
+  background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+	}
+
+body {
+  height: 100%;
+  color: #b7b6b6fa;
+  font-family: 'Oswald', sans-serif;
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+	}
+
+.is-size-1{
+  text-align: center;
+  font-size: 6em;
+}
+
+.is-size-3{
+  color: #b7b7b7fa;
+}
+
+.image img{
+  mix-blend-mode: unset !important;
+}
+
+.dropdown-item{
+  color: #bdb3b3;
+  font-size: 2em;
+}
+
+a.dropdown-item:hover {
+  background-color: #1e5879;
+  color: #ababab;
+}
+
+.employee-card{
+  padding: 20px;
+  mix-blend-mode: exclusion;
+}
+
 .App {
     text-align: center;
   }
